@@ -1,0 +1,9 @@
+1.use custom filter,if there are blank in name. so renamed as unkown.
+2. FURTHER CLEANING IS DONE BY "ISTEXT" FUNCTION & FOUND THAT IN HOST NAME THERE ARE BLANK AND NUMBER,WHICH THEN renamed as unkown,
+this step done in all column and action are taken according to the conditions that it should be number or text.
+3.after checking by "istext function" ,we have use "Isblank function" is done, and found that column name as last reviews is blank or 0 as it is date function,we have removed the rows ,later,accordingly
+column name as review per month are blank,so it was marked as 0 as
+ it is found that column name as number of review is 0,or last review is 0 and then reviews per month is blank then,it will be marked as 0 and vice versa.
+Also we have remove the data where date is not available.
+
+4. Upload to Power Bi for visulation(it is not asked in task but done)
